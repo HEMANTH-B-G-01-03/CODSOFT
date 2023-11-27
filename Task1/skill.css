@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/b6/dc/b2/b6dcb270eae6458889dc4f9b3d35cb56.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    
+    margin-left:270px;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.card {
+    width: 250px;
+    margin: 0 10px;
+    margin-top:30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+.card-title{
+    color:aliceblue;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+   display: flex;
+   justify-content: center;
+    height: 100vh;
+    background-image: url("https://t3.ftcdn.net/jpg/05/74/70/12/360_F_574701270_ia6WyKYgLv423ojC7719bstpjIHvYOaj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.left img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.left {
+    margin-top: 110px;
+    width: 350px;
+    padding: 20px;
+    
+}
+
+.center {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: white;
+}
+
+p {
+    color:gainsboro;
+    line-height: 1.5;
+    font-size: medium;
+   
+   
+}

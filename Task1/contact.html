@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+   
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <h3>Ph: 1234567891</h3>
+    <h3>abc@mail.com</h3>
+    <h3>House number "1234", abcd street, Manglore</h3>
+
+    <div class="container">
+        <form class="ppp">
+            <section>
+                <p>
+                    <label for="nameInput">Name</label>
+                    <input type="text" id="nameInput" class="form-control">
+                </p>
+                <p>
+                    <label for="phoneInput">Phone Number</label>
+                    <input type="number" id="phoneInput" maxlength="10" class="form-control">
+                </p>
+                <p>
+                    <label for="emailInput">E-mail</label>
+                    <input type="email" id="emailInput" class="form-control"> 
+                </p>
+                <p>
+                    <button type="button" class="btn" onclick="submitForm()"><a href="#">Submit</a></button>
+                </p>
+            </section>
+        </form>
+    </div>
+
+    <script>
+        function submitForm() {
+            var name = document.getElementById('nameInput').value;
+            var phoneNumber = document.getElementById('phoneInput').value;
+            var email = document.getElementById('emailInput').value;
+
+            alert("Name: " + name + "\nPhone Number: " + phoneNumber + "\nEmail: " + email +
+            "\nWas Submitted sucessfully");
+        }
+    </script>
+</body>
+</html>

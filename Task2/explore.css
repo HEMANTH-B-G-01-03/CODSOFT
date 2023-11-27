@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+#carouselExampleIndicators {
+    margin-top: 20px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}

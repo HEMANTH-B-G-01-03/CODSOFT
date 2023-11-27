@@ -1,0 +1,63 @@
+body {
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/005/263/636/small/contact-us-concept-icons-such-as-mobile-phone-e-mail-address-chat-global-communication-on-dark-blue-background-for-presentation-web-banner-article-business-and-network-connection-and-company-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes changeColor {
+    0% { color: gold; }
+    25% { color: coral; }
+    50% { color: lightgreen; }
+    75% { color: purple; }
+    
+    100% { color: palevioletred; }
+}
+
+h1 {
+    animation: changeColor 10s linear infinite; 
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(0, 255, 110);
+}
+
+.ppp {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form-control {
+    opacity: 0.5;
+}

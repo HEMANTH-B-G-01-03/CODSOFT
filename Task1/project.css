@@ -1,0 +1,84 @@
+body {
+    background: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMTgtYmItNV8xXzEuanBn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card::before,
+.card::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.card::before {
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.card::after {
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%) rotate(45deg);
+}
+
+.card:hover::before,
+.card:hover::after {
+    opacity: 1;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-title {
+    color: antiquewhite;
+}
+
+
+.card img.quiz-app-image {
+    height: 200px;
+}

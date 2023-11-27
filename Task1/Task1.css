@@ -1,0 +1,92 @@
+body {
+    background: url("https://img.freepik.com/premium-photo/night-landscape-dark-forest-river_960782-1398.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais");
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    color: white;
+}
+
+body.light-mode {
+    background: url("https://wallpapercave.com/wp/wp8417400.jpg");
+     background-repeat: no-repeat;
+     scroll-behavior: smooth;
+     background-attachment: fixed; 
+     background-size: cover; 
+     margin: 0; 
+    color: #000000; /* Light mode text color */
+}
+
+body.dark-mode {
+    background: url("https://img.freepik.com/premium-photo/night-landscape-dark-forest-river_960782-1398.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais");
+     background-repeat: no-repeat;
+     scroll-behavior: smooth;
+     background-attachment: fixed; 
+     background-size: cover; 
+     margin: 0; 
+    color: white; 
+    
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    transform: translateX(-50%);
+    color: aliceblue;
+}
+
+.nav {
+    margin-left: 590px;
+    margin-top: 12px;
+}
+
+.navitem {
+    list-style: none;
+    float: left;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.center img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 490px;
+    margin-top: 120px;
+}
+
+.me {
+    margin-top: 50px;
+    margin-left: 390px;
+}
+
+@keyframes changeColor {
+    0% { color: #FD0E35; }
+    25% { color: #FF00CC; }
+    50% { color: #DA2C43 }
+    75% { color: gold; }
+    100% { color: #9C51B6 }
+}
+
+h1.me span {
+    animation: changeColor 7s linear infinite;
+}
+
+#modeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 30px; /* Adjust the width of the image */
+    height: 30px; /* Adjust the height of the image */
+    background: url("brightness.png") no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
